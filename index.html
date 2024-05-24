@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Be real</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="title">Oportunidade Milionária</h1>
+  <p id="description">Preencha o formulario para prossegir.</p>
+  <form id="survey-form">
+
+    <label id="name-label">insira seu nome<br><input class="basico" placeholder="Coloque seu nome" required id="name"
+        type="text"></input></label><br>
+
+    <label id="email-label">Insira seu email<br><input class="basico" placeholder="Email" type="email" required
+        id="email"></input></label><br>
+
+    <label id="number-label">Insira sua idade<br><input class="basico" placeholder="Idade" type="number" id="number"
+        min="18" max="100"></input> </label><br>
+    <h2>Quanto tem para começar?</h2><br>
+    <label><input name="money" value="Tenho 1000" type="radio">Tenho 1000</input></label>
+    <label><input name="money" value="Tenho 10000" type="radio">Tenho 10000</input></label>
+    <label><input name="money" value="Tenho 10000" type="radio">Tenho 100000</input></label><br>
+    <h2 class="account">Sua conta bancaria</h2><br>
+    <select class="basico" name="dropdown" id="dropdown">
+      <option value="Selecione seu banco" aria-placeholder="Selecione seu banco"></option>
+      <option selected value="Selecione seu banco"">Selecione seu banco</option>
+      <option value=" Nubank">Nubank</option>
+      <option value="C6bank">C6bank</option>
+      <option value="Outro">Outro</option>
+    </select><br>
+    <h2>Suas preferencias </h2>
+    <label><input type="checkbox" class="checkbox" id="receber emails" value="receber emails">receber emails</label>
+    <label><input type="checkbox" class="checkbox" id="notificações" value="notificações">notificações</label>
+    <label><input type="checkbox" class="checkbox" id="receber wattsapp" value="receber wattsapp">receber
+      wattsapp</label><br>
+    <textarea id="textarea" placeholder="Conte o motivo do investimento"></textarea><br>
+    <label><input class="basico" id="submit" type="submit"></input></label>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

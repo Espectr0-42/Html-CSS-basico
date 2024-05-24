@@ -1,0 +1,54 @@
+html {
+    height: 50%;
+    width: 100%;
+    max-width: 900px;
+    margin-left: 250px;
+    margin-right: -50px;
+    font-family: sans-serif, arial;
+    background-image: url("https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg");
+  }
+  body{
+    text-align: center;
+    background-color: rgba(25,35,55,0.8);
+    color: goldenrod;
+    min-height: 1000px;
+    min-width: 1000px;
+    max-height: 900px;
+    max-width: 1000px;
+    margin: -5px ;
+    
+  }
+  .basico {
+    min-width: 550px;
+    min-height: 20px;
+    max-width: 650px;
+    max-height: 35px;
+    border-color: goldenrod;
+    border-width: 6px;
+    background-color: #000435;
+    margin: 11px;
+    color: white
+  }
+  #textarea{
+    min-width: 550px;
+    max-width: 600px;
+    min-height: 80px;
+    background-color: #000435;
+    color: goldenrod;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+    #submit {
+      border-width: 5px;
+      block-size: 60px;
+      width: 90px;
+      height: 40px;
+      background-color: #000435;
+      color: goldenrod;
+      border-color: goldenrod ;
+    }
+  .account{
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  
